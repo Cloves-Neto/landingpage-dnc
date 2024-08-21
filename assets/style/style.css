@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.none{
+    display: none;
+}
+
+.inicio{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../images/background.svg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    padding-left: 255px; /*soma tamanho da imagem mais padding/left 180 + 55  */
+}
+#logo{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    width: 180px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero{
+    width: 752px;
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: left;
+    color: white;
+}
+
+.corpo{
+    width: 652px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-align: left;
+    color: white;
+}
