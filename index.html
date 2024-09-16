@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/src/logo.svg" type="image/svg">
     <title>Escola DNC</title>
 </head>
 <body>
@@ -13,12 +13,12 @@
         <!-- Inicio -->
      <section class="inicio">
             <!-- <figure>
-                <img id="logo" src="./assets/images/logo.svg" alt="logo dnc">
+                <img id="logo" src="./assets/src/logo.svg" alt="logo dnc">
                 <figcaption class="none">Logo DNC</figcaption>
             </figure> -->
 
             <a href="https://www.escoladnc.com.br">
-                <img id="logo" src="./assets/images/logo.svg" alt="logo dnc">
+                <img id="logo" src="./assets/src/logo.svg" alt="logo dnc">
             </a>
 
             <div class="texto">
@@ -34,17 +34,17 @@
      <section class="informacional">
         <ul class="lista-informacional">
             <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/images/ico-certificado.svg" alt="icone certificado">
+                <img class="icone-informacional" src="./assets/src/ico-certificado.svg" alt="icone certificado">
                 <span class="texto-informacional">Certificado de conclusão</span>
             </li>
 
             <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/images/ico-relogio.svg" alt="icone relogio">
+                <img class="icone-informacional" src="./assets/src/ico-relogio.svg" alt="icone relogio">
                 <span class="texto-informacional">4 horas de conteúdo</span>
             </li>
 
             <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/images/ico-camera.svg" alt="icone camera">
+                <img class="icone-informacional" src="./assets/src/ico-camera.svg" alt="icone camera">
                 <span class="texto-informacional">Aulas online gravadas</span>
             </li>
         </ul>
@@ -68,16 +68,27 @@
                 </p>    
             </article>
         </section>
-        <section class="sessao-comentarios">
-            <div class="caroussel">
-                <h2 class="subtitulo titulo-caroussel">Mais de 500 alunos já iniciaram seus estudos</h2>
-                <div class="cards">
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+        <section class="sessao-comentarios caroussel">
+            <h2 class="subtitulo titulo-caroussel">Mais de 500 alunos já iniciaram seus estudos</h2>
+
+            <div class="cards">
+                <div class="button prev">
+                    <figure>
+                        <img src="./assets/src/ico_round-navigatet.svg" alt="icone anterior">
+                    </figure>
+                </div>
+            
+                <div class="card-container"></div>                
+            
+                <div class="button next">
+                    <figure>
+                        <img src="./assets/src/ico_round-navigatet.svg" alt="icone próximo">
+                    </figure>
                 </div>
             </div>
+            
         </section>
     </div>
+<script type="module" src="./assets/scripts/index.js"></script>
 </body>
 </html>
