@@ -261,3 +261,71 @@ body{
 .disable {
     display: none;
 }
+
+/* Formulario */
+
+.formulario{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.form-ementa{
+    width: 50%;
+    max-width: 1000px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.form-ementa label{
+    width: 60%;
+    max-width: 600px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #EAECE5;
+
+}
+.form-ementa label input{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    border: none;
+}
+.nome{
+    text-transform: capitalize;
+}
+.form-ementa label input::placeholder{
+    color: #333;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.button-ementa{
+    width: 500px;
+    height: 80px;
+    background-color: #247BA0;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button-ementa:hover{
+    transition: ease-in-out .2s;
+    background-color: #2ea7db;
+    transform: translateY(-10px);
+    box-shadow: #1b6a8cbe 0px 15px 30px;
+}
+
+
+

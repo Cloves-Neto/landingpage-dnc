@@ -11,46 +11,42 @@
     <!-- Sessão principal -->
     <div class="principal">
         <!-- Inicio -->
-     <section class="inicio">
-            <!-- <figure>
-                <img id="logo" src="./assets/src/logo.svg" alt="logo dnc">
-                <figcaption class="none">Logo DNC</figcaption>
-            </figure> -->
+        <section class="inicio">
+                <a href="https://www.escoladnc.com.br">
+                    <img id="logo" src="./assets/src/logo.svg" alt="logo dnc">
+                </a>
 
-            <a href="https://www.escoladnc.com.br">
-                <img id="logo" src="./assets/src/logo.svg" alt="logo dnc">
-            </a>
+                <div class="texto">
+                    <h1 class="hero">Dê os primeiros passos da sua carreira em Tecnologia</h1>
+                    <p class="corpo">
+                        Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC 
+                        School e aprenda os principais fundamentos para construir 
+                        experiências efetivas.
+                    </p>
+                </div>
+        </section>
+        <!-- Informacional -->
+        <section class="informacional">
+            <ul class="lista-informacional">
+                <li class="item-informacional">
+                    <img class="icone-informacional" src="./assets/src/ico-certificado.svg" alt="icone certificado">
+                    <span class="texto-informacional">Certificado de conclusão</span>
+                </li>
 
-            <div class="texto">
-                <h1 class="hero">Dê os primeiros passos da sua carreira em Tecnologia</h1>
-                <p class="corpo">
-                    Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC 
-                    School e aprenda os principais fundamentos para construir 
-                    experiências efetivas.
-                </p>
-            </div>
-     </section>
-     <!-- Informacional -->
-     <section class="informacional">
-        <ul class="lista-informacional">
-            <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/src/ico-certificado.svg" alt="icone certificado">
-                <span class="texto-informacional">Certificado de conclusão</span>
-            </li>
+                <li class="item-informacional">
+                    <img class="icone-informacional" src="./assets/src/ico-relogio.svg" alt="icone relogio">
+                    <span class="texto-informacional">4 horas de conteúdo</span>
+                </li>
 
-            <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/src/ico-relogio.svg" alt="icone relogio">
-                <span class="texto-informacional">4 horas de conteúdo</span>
-            </li>
-
-            <li class="item-informacional">
-                <img class="icone-informacional" src="./assets/src/ico-camera.svg" alt="icone camera">
-                <span class="texto-informacional">Aulas online gravadas</span>
-            </li>
-        </ul>
-     </section>
+                <li class="item-informacional">
+                    <img class="icone-informacional" src="./assets/src/ico-camera.svg" alt="icone camera">
+                    <span class="texto-informacional">Aulas online gravadas</span>
+                </li>
+            </ul>
+        </section>
     </div>
 
+    <!-- Promocional -->
     <div class="promocional">
         <section class="sessao-video">
             
@@ -88,6 +84,28 @@
             </div>
             
         </section>
+    </div>
+
+    <!-- Formulario -->
+    <div class="formulario">
+        <h2 class="subtitulo">Comece agora mesmo e dê o próximo passo de sua carreira</h2>
+        <form class="form-ementa" id="fo-ementa" action="https://api.sheetmonkey.io/form/PzHwhdy71fp3MTJSDqLAs" method="post">
+            <label for="nome">
+                <input type="text" id="nome" class="nome" name="name" placeholder="Nome:" required>
+            </label>
+
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="email:" required >
+            </label>
+
+            <label for="telefone">
+                <input type="tel" id="telefone" name="phone" placeholder="telefone:" required>
+            </label>
+
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+            <button type="submit" id="btn-ementa" class="button-ementa">Acessar a ementa grátis</button>
+        </form>
     </div>
 <script type="module" src="./assets/scripts/index.js"></script>
 </body>
